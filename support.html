@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>技术支持 · iSensor Data</title>
+<style>
+  body{max-width:760px;margin:0 auto;padding:32px 20px 60px;line-height:1.8;
+       font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif;
+       color:#1f2937;font-size:15px;}
+  h1{font-size:24px;margin-bottom:4px;}
+  .meta{color:#8a94a6;font-size:13px;margin-bottom:28px;}
+  h2{font-size:17px;margin-top:28px;margin-bottom:8px;}
+  ul{padding-left:20px;}
+  a{color:#2e8bf5;}
+  code{background:#f2f4f7;padding:2px 6px;border-radius:4px;font-size:14px;}
+</style>
+</head>
+<body>
+
+<h1>技术支持</h1>
+<div class="meta">iSensor Data · SN100-SDI 蓝牙配置工具</div>
+
+<h2>常见问题</h2>
+<ul>
+  <li><strong>扫描不到设备：</strong>先按一下设备上的按键唤醒蓝牙，BLE 仅在按键 / 上电 / 复位后的 60 秒内开启，超时需重新唤醒。</li>
+  <li><strong>连接后无法读写参数：</strong>设备可能处于锁定状态，App 会自动尝试解锁；若失败，请在顶栏输入设备标签上的 6 位 AT PIN 后点「发送」。</li>
+  <li><strong>没有硬件也能体验：</strong>扫描页选择内置演示设备即可，界面、流程与真机完全一致。</li>
+  <li><strong>写入后提示未生效：</strong>App 会在写入后自动回读校验，请照提示确认当前值与期望值，或查看通信日志中的设备应答。</li>
+</ul>
+
+<h2>设备信息</h2>
+<ul>
+  <li>适配产品：SN100-SDI（SDI-12 转 LoRaWAN 采集节点）</li>
+  <li>实机验证固件：US915 v1.3.2</li>
+  <li>连接方式：低功耗蓝牙（BLE）串口，无需联网</li>
+</ul>
+
+<h2>联系我们</h2>
+<p>问题反馈与合作咨询请发送邮件至 <a href="mailto:support@example.com">support@example.com</a>（请替换为您的真实邮箱）。</p>
+<p>反馈时请附上 App 版本（顶栏右上角）、设备固件版本（<code>AT+VER</code>）与日志文件，便于定位问题。</p>
+
+<h2>隐私政策</h2>
+<p><a href="./privacy.html">查看隐私政策</a></p>
+
+</body>
+</html>
